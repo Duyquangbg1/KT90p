@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alien Tester</title>
+</head>
+<body>
+    <div id="header">
+        <div class="h1"><a href="default.html"><h1>Aliens</h1></a></div>
+        <div class="h2" style="color: blue;"><h2>Are you an alien</h2></div>
+        <nav>
+            <ul>
+                <li><a href="default.html">Home</a></li>
+                <li><a href="default.html">Other</a></li>
+                <li><a href="default.html">Other</a></li>
+                <li><a href="default.html">Other</a></li>
+                <li><a href="default.html">Other</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="left">
+            <h2>Answer the following questions to determine if someone is an:</h2>
+            <form>
+                <label for="1">Do you talk to Animals:</label>
+                <br>
+                <select id="1">
+                    <option value="a">Yes,i talk to them usually</option>
+                    <option value="b">no,i dont know how to talk to them</option>
+                    <option value="c">sometime,i can understand them</option>
+                </select>
+            </form>
+            <form>
+                <label for="2">Where are you from ?</label>
+                <br>
+                <select id="2">
+                    <option value="a">Earth</option>
+                    <option value="b">Out of space</option>
+                    <option value="c">Underground</option>
+                </select>
+            </form>
+            <form>
+                <label for="3">Do you know E.T(an alien)?</label>
+                <br>
+                <select id="3">
+                    <option value="a">He's my brother</option>
+                    <option value="b">He's from a movie</option>
+                    <option value="c">Haven't heard before</option>
+                </select>
+            </form>
+            <button id="btn-determine">Determine</button>
+        </div>
+        <div class="right">
+            <h2>Result</h2>
+            <div id="label" ><h2></h2></div>
+            <div id="feature"></div>
+            <div id="des"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
